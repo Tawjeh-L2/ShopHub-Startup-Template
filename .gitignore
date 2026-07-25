@@ -1,3 +1,151 @@
+############################################################
+# Visual Studio / Rider / VS Code
+############################################################
+
 .vs/
-myshop.Web/appsettings.json
-myshop.Web/bin/Debug/net7.0/appsettings.json
+.vscode/
+.idea/
+
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+*.userprefs
+*.sln.iml
+
+############################################################
+# Build Output
+############################################################
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Oo]ut/
+artifacts/
+.artifacts/
+
+############################################################
+# Logs
+############################################################
+
+*.log
+*.tlog
+*.trx
+*.pidb
+*.svclog
+
+############################################################
+# Generated Files
+############################################################
+
+Generated Files/
+Generated/
+ScaffoldingReadMe.txt
+
+############################################################
+# Publish
+############################################################
+
+publish/
+*.pubxml
+*.Publish.xml
+*.publishproj
+*.azurePubxml
+*.PublishSettings
+
+############################################################
+# NuGet
+############################################################
+
+*.nupkg
+packages/
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+############################################################
+# ASP.NET Core
+############################################################
+
+wwwroot/dist/
+wwwroot/uploads/
+
+############################################################
+# Node.js
+############################################################
+
+node_modules/
+dist/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################################################
+# Database Files
+############################################################
+
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+*.sdf
+
+############################################################
+# Environment & Secrets
+############################################################
+
+.env
+.env.*
+!.env.example
+
+appsettings.Development.json
+appsettings.*.local.json
+
+appsettings.json.user
+secrets.json
+
+############################################################
+# Test & Coverage
+############################################################
+
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+BenchmarkDotNet.Artifacts/
+
+############################################################
+# OS Files
+############################################################
+
+Thumbs.db
+.DS_Store
+
+############################################################
+# Misc
+############################################################
+
+*.cache
+*.tmp
+*.tmp_proj
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.ipdb
+*.iobj
+*.pch
+*.aps
+*.ncb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+.localhistory/
+.playwright/
+_ReSharper*/
+_TeamCity*
